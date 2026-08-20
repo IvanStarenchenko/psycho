@@ -1,0 +1,101 @@
+@import 'tailwindcss';
+
+@theme {
+	--font-jacques: var(--font-jacques);
+	--font-libre: var(--font-libre);
+	--font-open-sans: var(--font-open-sans);
+	--font-sov-mode: var(--font-sov-mode);
+
+	--font-special-en: var(--font-jacques), serif;
+	--font-special-ru: var(--font-sov-mode), serif;
+	--font-heading-en: var(--font-libre), serif;
+	--font-heading-ru: var(--font-libre), serif;
+	--font-body: var(--font-open-sans), sans-serif;
+}
+
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+	--lightBrown: #ae9881;
+	--brightBrown: #af7b4b;
+	--peach: #ecbca1;
+	--white: #ffffff;
+	--darkNavyBlue: #2f4561;
+	--greenBlueMid: #859da6;
+	--lightGreenBlue: #d0dbe0;
+	--blueMid: #495f78;
+	--darkBlue: #2f4561;
+}
+
+.about-block {
+	font-weight: 400;
+	font-style: normal;
+	font-size: clamp(14px, 1.2vw + 10px, 20px);
+	line-height: 120%;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.main-title {
+	font-family: var(--font-jacques), serif;
+	font-size: clamp(40px, 4.5vw + 12px, 65px);
+	line-height: 110%;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.subtitle {
+	font-family: var(--font-open-sans), sans-serif;
+	font-size: clamp(15px, 1.2vw + 11px, 22px);
+	line-height: 140%;
+	text-align: left;
+}
+
+@media (min-width: 768px) {
+	.subtitle {
+		text-align: justify;
+	}
+}
+
+.hero-subtitle {
+	font-family: var(--font-libre), serif;
+	font-style: italic;
+	font-size: clamp(18px, 2vw + 10px, 30px);
+	line-height: 125%;
+	font-weight: 500;
+	color: var(--lightGreenBlue);
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.practice-approach-title {
+	font-family: var(--font-libre), serif;
+	font-weight: 400;
+	font-size: clamp(20px, 1.8vw + 12px, 30px);
+	line-height: 125%;
+	color: var(--brightBrown);
+}
+
+.practice-approach-text {
+	font-family: var(--font-open-sans), sans-serif;
+	font-size: clamp(15px, 1vw + 11px, 22px);
+	line-height: 160%;
+	text-align: left;
+}
+
+@media (min-width: 768px) {
+	.practice-approach-text {
+		text-align: justify;
+	}
+}
+
+button {
+	cursor: pointer;
+}
+
+body {
+	background: var(--background);
+	color: var(--foreground);
+	font-family: var(--font-open-sans), Arial, sans-serif;
+	overflow-x: hidden;
+}
