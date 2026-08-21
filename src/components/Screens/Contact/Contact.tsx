@@ -31,8 +31,8 @@ export function Contact() {
 								Email:
 							</p>
 							<a
-								href="mailto:veronica.analytical.psychologist@gmail.com"
-								className="inline-block font-body text-[18px] sm:text-[20px] text-slate-800 hover:text-[var(--brightBrown)] transition-colors underline underline-offset-4 decoration-slate-300 hover:decoration-[var(--brightBrown)]"
+								href="mailto:veronica.analytical.psychologist@gmail.com?subject=Inquiry%20from%20the%20website&body=Hello%20Veronica%2C%0A%0AI'm%20contacting%20you%20through%20your%20website.%0A%0A"
+								className="inline-block font-body text-[18px] sm:text-[20px] text-slate-800 hover:text-(--brightBrown) transition-colors underline underline-offset-4 decoration-slate-300 hover:decoration-(--brightBrown)"
 							>
 								veronica.analytical.psychologist@gmail.com
 							</a>
@@ -49,7 +49,6 @@ export function Contact() {
 							className="object-cover object-center"
 						/>
 					</div>
-
 				</div>
 
 

@@ -14,16 +14,17 @@ export function AuthorPortrait({ style, className }: AuthorProps) {
 				} ${className ?? ''}`}
 		>
 			<span
-				className={`hidden md:block absolute h-[6px] bg-[var(--brightBrown)] ${style === 'circle'
-					? 'top-[45%] right-full w-[100vw]'
-					: 'top-[25%] right-full w-[100vw]'
+				className={`hidden md:block absolute h-[6px] bg-[var(--brightBrown)] z-10 ${style === 'circle'
+						? 'top-[45%] right-full w-[100vw]'
+						: 'top-[25%] right-full w-[100vw]'
 					}`}
 			/>
 
 			<Image
 				src={style === 'circle' ? CirclePortrait : SquarePortrait}
 				alt="Veronica Vasylieva"
-				className="object-cover object-center -z-10"
+				className={`object-cover object-center z-0 ${style === 'circle' ? 'rounded-full' : ''
+					}`}
 				fill
 				priority
 				unoptimized

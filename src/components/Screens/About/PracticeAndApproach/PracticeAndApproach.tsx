@@ -2,9 +2,9 @@ import { Wrapper } from '@/app/layout/Wrapper/Wrapper'
 
 export function PracticeAndApproach() {
 	return (
-		<section className="py-12 md:py-16 w-full">
+		<section className=" w-full">
 			<Wrapper>
-				<div className=" mx-auto flex flex-col ml-[200px] gap-y-12 md:gap-y-16">
+				<div className=" mx-auto flex flex-col ml-[20px] sm:ml-[200px] gap-y-12 md:gap-y-16">
 
 					<div className="flex flex-col gap-y-6">
 						<h2 className="practice-approach-title">
