@@ -37,7 +37,7 @@ export function CardModal({
 	const paragraphs = text ? text.split('\n\n').filter(Boolean) : []
 
 	return (
-		<div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/60 backdrop-blur-xs">
+		<div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/60 backdrop-blur-xs custom-scrollbar">
 			<div className="absolute inset-0" onClick={onClose} />
 
 			<div className="relative z-10 w-full max-w-[1024px] max-h-[90vh] md:h-[600px] flex flex-col md:flex-row overflow-hidden shadow-2xl rounded-xl md:rounded-none">

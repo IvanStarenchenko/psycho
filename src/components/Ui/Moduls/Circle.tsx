@@ -64,13 +64,13 @@ export function Circle({ index }: CircleProps) {
 
 			{isOpen && mounted && createPortal(
 				<div
-					className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/75 backdrop-blur-md"
+					className="fixed inset-0 z-[9999] sm:flex sm:items-center sm:justify-center sm:p-4 sm:bg-black/75 sm:backdrop-blur-md"
 					onClick={handleClose}
 					onMouseEnter={handleMouseEnter}
 					onMouseLeave={handleMouseLeave}
 				>
 					<div
-						className="w-full max-w-[600px] pointer-events-auto"
+						className="w-full h-full sm:h-auto sm:max-w-[600px] pointer-events-auto"
 						onClick={(e) => e.stopPropagation()}
 					>
 						<PopUp

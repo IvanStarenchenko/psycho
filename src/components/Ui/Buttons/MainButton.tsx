@@ -20,7 +20,7 @@ export function MainButton({
 	...props
 }: ButtonProps) {
 	const baseStyles =
-		'inline-flex items-center justify-center font-medium text-center transition-all duration-300 border active:scale-95 select-none leading-none'
+		'flex w-full sm:w-auto sm:inline-flex items-center justify-center font-medium text-center transition-all duration-300 border active:scale-95 select-none leading-none'
 
 	const sizeStyles: Record<NonNullable<ButtonProps['size']>, string> = {
 		big: 'px-6 sm:px-10 md:px-[66px] py-4 sm:py-5 md:py-[25px] rounded-[50px] text-sm sm:text-base md:text-lg tracking-wider',

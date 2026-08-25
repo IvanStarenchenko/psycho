@@ -34,19 +34,12 @@ export function Hero() {
 							/>
 						</div>
 
-						<span className="hidden lg:block absolute top-[35%] left-[48%] z-10">
+						<span className=" absolute top-[35%] left-[48%] z-10">
 							<Circle index={3} />
 						</span>
 					</div>
 
-					<div className="font-libre font-[600] text-[22px] leading-relaxed block lg:hidden py-8 text-[var(--brightBrown)] space-y-6">
-						<p >
-							Every Vessel Carries The Marks Of Its Making. Some Are Chipped By Loss, Others Cracked By Transition Or Burden. Yet The Value Of An Ancient Vessel Lies Not In Its Perfection, But In The Story It Carries.
-						</p>
-						<p >
-							Jungian Analysis Is A Space To Explore The Symbolic Patterns Held Within Your Own Story, Where The Fragments Of Experience Can Begin To Form A More Meaningful Whole.
-						</p>
-					</div>
+
 				</Wrapper>
 			</BoldCenterLine>
 		</section>

@@ -4,11 +4,11 @@ import { AnalysisPhoto } from './AnalysisPhoto'
 export function AnalysisAbout() {
 	return (
 		<div className="flex flex-col gap-5 md:gap-8">
-			<div className="flex flex-col gap-2">
-				<span className="about-block text-[var(--brightBrown)] md:text-[var(--lightGreenBlue)]">
+			<div className="flex flex-col ">
+				<span className="about-block mb-[30px] text-[var(--brightBrown)] md:text-[var(--lightGreenBlue)]">
 					ARCHETYPAL DEPTH ANALYSIS
 				</span>
-				<h2 className="main-title leading-[115%] text-[var(--darkNavyBlue)] md:text-white">
+				<h2 className="main-title leading-[115%] text-[var(--darkNavyBlue)] mb-[20px] md:text-white">
 					The Journey <br className="hidden md:block" /> Within
 				</h2>
 			</div>
@@ -16,10 +16,6 @@ export function AnalysisAbout() {
 			<div className="block md:hidden my-2">
 				<AnalysisPhoto />
 			</div>
-
-			<h3 className="block md:hidden font-libre text-lg sm:text-2xl leading-[135%] text-[var(--brightBrown)] font-normal">
-				Every Vessel Carries The Marks Of Its Making. Some Are Chipped By Loss, Others Cracked By Transition Or Burden. Yet The Value Of An Ancient Vessel Lies Not In Its Perfection, But In The Story It Carries.
-			</h3>
 
 			<div className="flex flex-col gap-4 text-base sm:text-lg lg:text-[22px] leading-[140%] font-normal text-[var(--darkNavyBlue)] md:text-white/90 text-left">
 				<p>

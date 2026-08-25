@@ -12,7 +12,7 @@ export const moduls_data = [
 	{
 		id: 3,
 		top: 'Where the Light Has Not Yet Reached',
-		text: 'There is a deeper place beyond what we ordinarily call the shadow. As consciousness descends, the familiar landmarks begin to disappear. In the deep blue of the unconscious, something different may become visible, not as an answer, but as an image, a feeling, a dream, a sudden recognition.\n\nHere, we may catch glimpses of the Self: a centre of the psyche larger than the conscious ego, quietly holding together what the ego experiences as fragmented.\n\nThe journey is therefore not simply a movement from darkness toward light. It is a descent into the depths where darkness itself can become fertile, revealing something that could not be seen from the surface.\n\nSometimes we have to go deeper before we can see differently.'
+		text: 'There is a deeper place beyond what we ordinarily call the shadow. \n\n As consciousness descends, the familiar landmarks begin to disappear. In the deep blue of the unconscious, something different may become visible, not as an answer, but as an image, a feeling, a dream, a sudden recognition.\n\nHere, we may catch glimpses of the Self: a centre of the psyche larger than the conscious ego, quietly holding together what the ego experiences as fragmented.\n\nThe journey is therefore not simply a movement from darkness toward light. It is a descent into the depths where darkness itself can become fertile, revealing something that could not be seen from the surface.\n\nSometimes we have to go deeper before we can see differently.'
 	},
 	{
 		id: 4,

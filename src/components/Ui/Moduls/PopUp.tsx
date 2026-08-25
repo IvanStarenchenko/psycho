@@ -27,26 +27,28 @@ export function PopUp({
 	const paragraphs = text ? text.split('\n\n').filter(Boolean) : []
 
 	return (
-		<div className={`relative p-6 sm:p-8 transition-all rounded-2xl shadow-2xl max-h-[80vh] overflow-y-auto ${currentClass}`}>
+		<div className={`w-full h-full sm:h-auto p-5 sm:p-8 transition-all sm:rounded-2xl shadow-2xl sm:max-h-[80vh] overflow-y-auto custom-scrollbar ${currentClass}`}>
 			{onClose && (
-				<button
-					onClick={onClose}
-					className="absolute top-4 right-4 w-8 h-8 rounded-full bg-black/10 hover:bg-black/20 text-current flex items-center justify-center text-base font-bold transition-all cursor-pointer z-10"
-					aria-label="Close"
-				>
-					✕
-				</button>
+				<div className="flex justify-end mb-4 sm:mb-6">
+					<button
+						onClick={onClose}
+						className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white text-slate-800 flex items-center justify-center text-sm sm:text-base font-bold transition-all cursor-pointer hover:bg-opacity-90 active:scale-95 shadow"
+						aria-label="Close"
+					>
+						✕
+					</button>
+				</div>
 			)}
 
-			<h2 className="font-heading-en text-xl sm:text-2xl md:text-3xl mb-4 font-normal pr-8">
+			<h2 className="font-['Libre_Baskerville',serif] text-[22px] sm:text-[25px] font-medium leading-[110%] capitalize mb-4 sm:mb-6">
 				{top}
 			</h2>
 
-			<div className="space-y-3 sm:space-y-4">
+			<div className="space-y-4">
 				{paragraphs.map((paragraph, idx) => (
 					<p
 						key={idx}
-						className="font-body text-sm md:text-base leading-relaxed opacity-95"
+						className="font-['Open_Sans',sans-serif] text-[16px] sm:text-[20px] font-normal leading-[140%] sm:leading-[120%] text-justify tracking-normal"
 					>
 						{paragraph}
 					</p>

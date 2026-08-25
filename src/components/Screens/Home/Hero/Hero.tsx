@@ -25,7 +25,7 @@ export function Hero() {
 					</h1>
 				</div>
 
-				<h3 className="hero-subtitle text-lg sm:text-2xl lg:text-[30px] leading-[130%] lg:leading-[120%] text-white/90 text-left lg:text-center max-w-[808px] w-full mt-auto lg:mt-8 mb-6 lg:mb-0">
+				<h3 className="hero-subtitle text-lg sm:text-2xl lg:text-[30px] leading-[130%] lg:leading-[120%] text-white/90! sm:text-white! text-left lg:text-center max-w-[808px] w-full mt-auto lg:mt-8 mb-6 lg:mb-0">
 					When the patterns of your life no longer make sense, there may be something deeper asking to be understood
 				</h3>
 
@@ -43,7 +43,7 @@ export function Hero() {
 					<Circle index={0} />
 				</span>
 
-				<span className="absolute top-[68%] left-[10%] lg:top-[520px] sm:left-[12%] lg:left-[9%] z-20">
+				<span className="absolute top-[70%] left-[20%] lg:top-[520px] sm:left-[12%] lg:left-[9%] z-20">
 					<Circle index={2} />
 				</span>
 			</Wrapper>

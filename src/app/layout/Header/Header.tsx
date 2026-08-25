@@ -30,8 +30,8 @@ export function Header() {
 		}
 	}, [isOpen])
 	const mobileMenuContent = (
-		<div className="fixed inset-0 top-0 left-0 w-screen h-[100dvh] bg-[var(--darkNavyBlue)] z-[9999] flex flex-col items-center justify-center p-6 md:hidden">
-			{/* Крестик */}
+		<div className="fixed inset-0 top-0 left-0 w-screen h-dvh bg-(--greenBlueMid) z-9999 flex flex-col items-center justify-center p-6 md:hidden">
+
 			<button
 				onClick={() => setIsOpen(false)}
 				className="absolute top-6 left-6 text-white/80 hover:text-white p-2 text-3xl font-light focus:outline-none"
@@ -40,9 +40,8 @@ export function Header() {
 				✕
 			</button>
 
-			{/* Ссылки */}
 			<nav className="w-full">
-				<ul className="flex flex-col items-center justify-center text-center gap-8 text-white font-libre text-xl sm:text-2xl tracking-wide w-full">
+				<ul className="flex flex-col items-center justify-center text-center gap-8  font-libre text-xl sm:text-2xl tracking-wide w-full">
 					{links.map((link) => (
 						<li
 							key={link.path}
@@ -59,11 +58,11 @@ export function Header() {
 
 	return (
 		<header className="relative w-full z-50">
-			<div className="max-w-[1200px] mx-auto px-6 py-6 flex items-center justify-between">
+			<div className="max-w-300 mx-auto px-6 py-6 flex items-center justify-between">
 
 				<button
 					onClick={() => setIsOpen(true)}
-					className="md:hidden text-[var(--brightBrown)] focus:outline-none p-2 -ml-2"
+					className="md:hidden text-(--brightBrown) focus:outline-none p-2 -ml-2"
 					aria-label="Open menu"
 				>
 					<div className="w-6 h-4 flex flex-col justify-between">
@@ -74,7 +73,7 @@ export function Header() {
 				</button>
 
 				<nav className="hidden md:block mx-auto">
-					<ul className="flex gap-[50px] text-[var(--greenBlueLight)] items-center justify-center">
+					<ul className="flex gap-12.5 text-(--greenBlueLight) items-center justify-center">
 						{links.map((link) => (
 							<li key={link.path}>
 								<Link name={link.name} path={link.path} />

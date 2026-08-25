@@ -8,11 +8,11 @@ export function Hero() {
 	return (
 		<section className="relative w-full overflow-x-hidden py-8 md:py-12">
 			<Wrapper>
-				<div className="flex flex-col items-center ml-0 gap-3 mb-8 md:mb-16">
-					<span className="about-block uppercase text-left text-[var(--brightBrown)] tracking-wider">
+				<div className="flex flex-col items-center text-right ml-0  mb-8 md:mb-16">
+					<span className="about-block uppercase mb-[30px] text-left text-[var(--brightBrown)] tracking-wider">
 						Who Accompanies you
 					</span>
-					<h1 className="main-title text-center">
+					<h1 className="main-title text-center mb-[50px]">
 						The Path and work
 					</h1>
 				</div>

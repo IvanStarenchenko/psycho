@@ -27,7 +27,7 @@ export function Begin() {
 
 						<div className="relative z-10 grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-6 sm:gap-8 md:gap-12 items-center w-full my-auto">
 							<div className="flex flex-col gap-y-3 sm:gap-y-6 max-w-[680px] text-white text-left">
-								<h2 className="font-libre font-bold text-3xl sm:text-4xl md:text-[50px] leading-[115%] capitalize">
+								<h2 className="font-libre font-bold text-3xl sm:text-4xl md:text-[50px] leading-[140%] capitalize">
 									Every Journey Begins With A First Step Into The Unknown
 								</h2>
 
