@@ -5,11 +5,11 @@ import { Hero } from './Hero/Hero'
 import { Structure } from './Structure/Structure'
 
 export function Analysis() {
-	return <div className="flex flex-col gap-y-[50px] md:gap-y-[100px]">
+	return <section className="flex flex-col gap-y-[50px] md:gap-y-[100px] py-4">
 		<Hero />
 		<Articles />
 		<Begin />
 		<Structure />
 		<Contact />
-	</div>
+	</section>
 }

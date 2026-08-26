@@ -52,13 +52,13 @@ export function Article({
 							paragraphs.map((paragraph, index) => (
 								<p
 									key={index}
-									className="font-body font-normal text-[16px] sm:text-[18px] md:text-[22px] leading-[135%] text-[var(--darkNavyBlue)] md:text-slate-800"
+									className="font-body font-normal text-[16px] sm:text-[18px] md:text-[22px] leading-[135%] text-justify hyphens-auto text-[var(--darkNavyBlue)] md:text-slate-800"
 								>
 									{paragraph}
 								</p>
 							))
 						) : (
-							<p className="font-body font-normal text-[16px] sm:text-[18px] md:text-[22px] leading-[135%] text-[var(--darkNavyBlue)] md:text-slate-800">
+							<p className="font-body font-normal text-[16px] sm:text-[18px] md:text-[22px] leading-[135%] text-justify hyphens-auto text-[var(--darkNavyBlue)] md:text-slate-800">
 								{firstParagraph.length > previewSymbols
 									? `${firstParagraph.slice(0, previewSymbols).trim()}...`
 									: firstParagraph}

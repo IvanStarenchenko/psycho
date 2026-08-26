@@ -4,8 +4,8 @@ import { MainButton } from '@/components/Ui/Buttons/MainButton'
 
 export function AuthorAbout() {
 	return (
-		<div className="flex flex-col gap-12 md:gap-10">
-			<div className="hidden sm:flex sm:flex-col sm:gap-4">
+		<div className="flex flex-col gap-8 md:gap-12">
+			<div className="hidden sm:flex sm:flex-col sm:gap-12">
 				<span className="about-block text-[var(--brightBrown)]">
 					Who accompanies you
 				</span>
@@ -14,21 +14,22 @@ export function AuthorAbout() {
 				</h2>
 			</div>
 
-			<span className="font-libre italic font-semibold text-black sm:text-[var(--greenBlueMid)] text-2xl font-500 -mt-2 sm:mt-0">
+			<span className="font-libre italic font-semibold text-black sm:text-[var(--greenBlueMid)] text-2xl font-500  sm:mt-0">
 				Deeper Way of Listening
 			</span>
 
-			<div className="flex flex-col gap-5 text-[22px] leading-[120%] font-normal">
+			<div className="practice-approach-text">
 				<p>
 					Veronica Vasylieva is a Jungian Analytical Psychologist whose work is
 					grounded in the tradition of C.G. Jung and informed by classical and
 					archetypal approaches, including Archetypal Pattern Analysis.
-				</p>
+				</p> <br />
 				<p>
 					Her practice explores the symbolic language of dreams, archetypes,
 					mythology, fairytales, active imagination, and the relationship
 					between the conscious and unconscious psyche.
 				</p>
+				<br />
 				<p>
 					Alongside her analytical training, Veronica has worked in NHS
 					community mental health in London, refugee support, and academic
@@ -37,7 +38,7 @@ export function AuthorAbout() {
 				</p>
 			</div>
 
-			<MainButton className="w-full sm:w-fit self-center sm:self-start rounded-full">
+			<MainButton className="w-full flex  sm:w-fit self-center rounded-full">
 				Find out more
 			</MainButton>
 		</div>

@@ -8,12 +8,14 @@ interface AnalysisPhotoProps {
 
 export function AnalysisPhoto({ className = '' }: AnalysisPhotoProps) {
 	return (
-		<div className={`relative w-full max-w-[761px] aspect-[761/752] overflow-hidden ${className}`}>
+		<div
+			className={`relative mt-0 sm:mt-[120px] w-full lg:w-[calc(100%+((100vw-100%)/2))] max-w-[761px] aspect-[761/752] overflow-hidden ${className}`}
+		>
 			<Image
 				src={analysisPhoto}
 				alt="Ancient vessels analysis"
 				fill
-				sizes="(max-width: 768px) 100vw, 761px"
+				sizes="(max-width: 1024px) 100vw, 761px"
 				className="object-cover"
 			/>
 			<span className="absolute top-[52%] left-[47%] z-10">

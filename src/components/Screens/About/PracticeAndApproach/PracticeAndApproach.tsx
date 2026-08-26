@@ -2,19 +2,21 @@ import { Wrapper } from '@/app/layout/Wrapper/Wrapper'
 
 export function PracticeAndApproach() {
 	return (
-		<section className=" w-full">
+		<section className="w-full">
 			<Wrapper>
-				<div className=" mx-auto flex flex-col ml-[20px] sm:ml-[200px] gap-y-12 md:gap-y-16">
+				<div className="w-full ml-0 md:ml-[60px] lg:ml-[120px] flex flex-col gap-y-12 md:gap-y-16">
 
-					<div className="flex flex-col gap-y-6">
+					<div className="flex flex-col gap-y-12">
 						<h2 className="practice-approach-title">
 							Practice And Approach
 						</h2>
 
-						<div className="practice-approach-text">
+						<div className="practice-approach-text flex flex-col gap-y-6">
 							<p>
 								Veronica Vasylieva is a Jungian analytical psychologist whose work is grounded in the tradition of C.G. Jung. Her practice is informed by classical and archetypal Jungian schools and explores the symbolic language of dreams, archetypes, mythology, active imagination, fairytales and the dynamic relationship between 'I' and 'Other'.
+
 							</p>
+
 							<p>
 								Alongside her analytical training, Veronica has worked within community mental health of NHS, London, UK, refugee support (RAMA), and academic research (MigRefHealth), accompanying people through periods of transition, loss, trauma, and profound psychological transformation, and psychiatric conditions.
 							</p>
@@ -30,24 +32,24 @@ export function PracticeAndApproach() {
 						</div>
 					</div>
 
-					<div className="flex flex-col gap-y-6">
+					<div className="flex flex-col gap-y-12">
 						<h2 className="practice-approach-title">
 							Clients And Emotional Disorders
 						</h2>
 
-						<div className="practice-approach-text">
+						<div className="practice-approach-text flex flex-col gap-y-6">
 							<p>
 								She works with adults experiencing a range of psychological and emotional difficulties, including anxiety, depression, trauma-related difficulties, low self-esteem, relationship and interpersonal problems, emotional dysregulation, grief and loss, and difficulties associated with major life transitions. Her experience in community mental health and psychiatric settings includes working with people experiencing significant psychological distress and complex presentations affecting their relationships, functioning, sense of self, and everyday life.
 							</p>
 						</div>
 					</div>
 
-					<div className="flex flex-col gap-y-6">
+					<div className="flex flex-col gap-y-12">
 						<h2 className="practice-approach-title">
 							Studies & Training
 						</h2>
 
-						<ul className="list-disc pl-5 space-y-3 practice-approach-text marker:text-[var(--brightBrown)]">
+						<ul className="list-disc pl-5 space-y-1 practice-approach-text flex flex-col marker:text-[var(--brightBrown)]">
 							<li>
 								MA Psychoanalytic and Jungian Studies, with Distinction, University of Essex, UK
 							</li>

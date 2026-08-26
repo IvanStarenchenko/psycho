@@ -29,19 +29,20 @@ export function Header() {
 			document.body.style.touchAction = ''
 		}
 	}, [isOpen])
+
 	const mobileMenuContent = (
 		<div className="fixed inset-0 top-0 left-0 w-screen h-dvh bg-(--greenBlueMid) z-9999 flex flex-col items-center justify-center p-6 md:hidden">
 
 			<button
 				onClick={() => setIsOpen(false)}
-				className="absolute top-6 left-6 text-white/80 hover:text-white p-2 text-3xl font-light focus:outline-none"
+				className="absolute top-4 right-4 text-white/80 hover:text-white p-2 text-3xl font-light focus:outline-none"
 				aria-label="Close menu"
 			>
 				✕
 			</button>
 
 			<nav className="w-full">
-				<ul className="flex flex-col items-center justify-center text-center gap-8  font-libre text-xl sm:text-2xl tracking-wide w-full">
+				<ul className="flex flex-col items-center justify-center text-center gap-8 font-libre text-xl sm:text-2xl tracking-wide w-full">
 					{links.map((link) => (
 						<li
 							key={link.path}
@@ -58,14 +59,14 @@ export function Header() {
 
 	return (
 		<header className="relative w-full z-50">
-			<div className="max-w-300 mx-auto px-6 py-6 flex items-center justify-between">
+			<div className="max-w-300 mx-auto px-4 sm:px-6 py-3 md:py-6 flex items-center justify-between">
 
 				<button
 					onClick={() => setIsOpen(true)}
-					className="md:hidden text-(--brightBrown) focus:outline-none p-2 -ml-2"
+					className="md:hidden text-center text-(--brightBrown) focus:outline-none p-1.5 -ml-1.5"
 					aria-label="Open menu"
 				>
-					<div className="w-6 h-4 flex flex-col justify-between">
+					<div className="w-5 h-3.5 flex flex-col  justify-between">
 						<span className="w-full h-0.5 bg-current rounded-full" />
 						<span className="w-full h-0.5 bg-current rounded-full" />
 						<span className="w-full h-0.5 bg-current rounded-full" />

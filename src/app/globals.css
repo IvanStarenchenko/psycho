@@ -100,9 +100,9 @@
 
 .practice-approach-text {
 	font-family: var(--font-open-sans), sans-serif;
-	font-size: clamp(15px, 1vw + 11px, 22px);
-	line-height: 160%;
-	text-align: left;
+	font-size: clamp(18px, 1vw + 11px, 22px);
+	line-height: 130%;
+	text-align: justify;
 }
 
 @media (min-width: 768px) {

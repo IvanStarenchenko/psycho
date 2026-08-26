@@ -10,13 +10,13 @@ interface AuthorProps {
 export function AuthorPortrait({ style, className }: AuthorProps) {
 	return (
 		<div
-			className={`relative flex items-center justify-center w-full aspect-square ${style === 'circle' ? 'max-w-[520px]' : 'max-w-[570px]'
+			className={`relative flex items-center justify-center w-full aspect-square ${style === 'circle' ? 'max-w-[520px]' : 'max-w-[570px] mt-0 sm:mt-[50px]'
 				} ${className ?? ''}`}
 		>
 			<span
-				className={`hidden md:block absolute h-[6px] bg-[var(--brightBrown)] z-10 ${style === 'circle'
-						? 'top-[45%] right-full w-[100vw]'
-						: 'top-[25%] right-full w-[100vw]'
+				className={`hidden lg:block absolute h-[6px] bg-[var(--brightBrown)] z-10 ${style === 'circle'
+					? 'top-[45%] right-full w-[100vw]'
+					: 'top-[25%] right-full w-[100vw]'
 					}`}
 			/>
 

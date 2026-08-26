@@ -6,10 +6,10 @@ import Image from 'next/image'
 
 export function Begin() {
 	return (
-		<section className="relative w-full overflow-hidden py-2 md:py-16">
+		<section className="relative w-full overflow-hidden py-2">
 			<BoldCenterLine>
 				<Wrapper>
-					<div className="relative w-full bg-[var(--lightBrown)] lg:bg-transparent min-h-[520px] sm:min-h-[585px] px-6 sm:px-10 md:px-16 py-12 md:py-16 flex items-center overflow-hidden mb-[50px] md:mb-[100px]">
+					<div className="relative w-full bg-[var(--lightBrown)] lg:bg-transparent min-h-[520px] sm:min-h-[585px] px-6 sm:px-10 md:px-16 py-12 md:py-16 flex items-center overflow-hidden ">
 
 
 						<div className="absolute inset-x-0 top-12 bottom-12 lg:inset-0 z-0">

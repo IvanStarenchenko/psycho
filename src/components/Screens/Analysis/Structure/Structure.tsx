@@ -16,13 +16,13 @@ export function Structure() {
 	const card7 = getItem(7)
 
 	return (
-		<section className="w-full overflow-hidden">
+		<section className="w-full overflow-hidden ">
 			<Wrapper>
-				<div className="mb-12 md:mb-16 text-center">
+				<div className="mb-12 md:mb-16 ">
 					<span className="about-block block mb-7 text-[var(--brightBrown)] uppercase tracking-wider text-xs md:text-sm font-semibold">
 						Structure of analysis/ infographics
 					</span>
-					<h2 className="main-title text-center mt-2 md:mt-4 text-2xl sm:text-3xl md:text-5xl">
+					<h2 className="main-title mt-[30px] mb-[50px] lg:mt-[50px] mb-6 lg:mb-[100px] text-3xl sm:text-4xl lg:text-[50px] ">
 						Entering the Temenos
 					</h2>
 				</div>

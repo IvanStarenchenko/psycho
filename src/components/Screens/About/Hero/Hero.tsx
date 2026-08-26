@@ -6,22 +6,22 @@ import Image from "next/image"
 
 export function Hero() {
 	return (
-		<section className="relative w-full overflow-x-hidden py-8 md:py-12">
+		<section className="relative w-full overflow-x-hidden">
 			<Wrapper>
-				<div className="flex flex-col items-center text-right ml-0  mb-8 md:mb-16">
-					<span className="about-block uppercase mb-[30px] text-left text-[var(--brightBrown)] tracking-wider">
+				<div className="flex flex-col ml-0 sm:ml-[110px] ">
+					<span className="about-block uppercase  text-[var(--brightBrown)] ">
 						Who Accompanies you
 					</span>
-					<h1 className="main-title text-center mb-[50px]">
+					<h1 className="main-title mt-[30px] mb-[50px] lg:mt-[50px] mb-6 lg:mb-[100px] text-3xl sm:text-4xl lg:text-[50px] md:text-[var(--darkNavyBlue)]">
 						The Path and work
 					</h1>
 				</div>
 			</Wrapper>
 
-			<div className="max-w-[1400px] mx-auto px-4 sm:px-6">
-				<div className="relative w-full max-w-[1182px] ml-auto mb-[120px] lg:mb-0">
+			<div className="max-w-[1400px] mx-auto">
+				<div className="relative w-full mb-[120px] lg:mb-0">
 
-					<div className="relative w-[calc(100%+2rem)] -mx-4 sm:w-full sm:mx-0 aspect-[1182/861] overflow-hidden rounded-none sm:rounded-xl shadow-sm z-0">
+					<div className="relative w-full lg:w-[82%] ml-auto aspect-[1182/680] overflow-hidden rounded-none sm:rounded-xl shadow-sm z-0">
 						<Image
 							src={dance}
 							alt="The Path and work"
@@ -34,7 +34,8 @@ export function Hero() {
 
 					<div className="absolute z-20 shrink-0
             w-[241px] h-[241px] bottom-0 left-1/2 -translate-x-1/2 translate-y-[50%]
-            lg:w-[520px] lg:h-[520px] lg:left-[-260px] lg:top-[80px] lg:bottom-auto lg:translate-x-0 lg:translate-y-0"
+            lg:w-[380px] lg:h-[380px] lg:left-0 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-0
+            xl:w-[460px] xl:h-[460px]"
 					>
 						<AuthorPortrait style="circle" />
 					</div>

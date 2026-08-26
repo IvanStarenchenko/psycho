@@ -4,22 +4,19 @@ import Image from 'next/image'
 
 export function Contact() {
 	return (
-		<section className="w-full py-6 sm:py-8 md:py-12">
+		<section className="w-full ">
 			<Wrapper>
-				{/* Заголовок страницы */}
-				<div className="flex flex-col mb-8 lg:mb-12">
+				<div className="flex flex-col ">
 					<span className="about-block text-[var(--brightBrown)] uppercase tracking-wider text-xs sm:text-sm font-semibold mb-2">
 						Contact
 					</span>
-					<h1 className="main-title text-[22px] min-[360px]:text-[25px] sm:text-[44px] md:text-[56px] leading-[105%]">
+					<h1 className="main-title mt-[30px] mb-[50px] lg:mt-[50px] mb-6 lg:mb-[100px] text-3xl sm:text-4xl lg:text-[50px]">
 						When Psyche <br className="sm:hidden" />
 						Calls
 					</h1>
 				</div>
 
-				{/* Сетка контента */}
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
-					{/* Изображение: 1-е на мобилке, 2-е на десктопе */}
 					<div className="order-1 lg:order-2 relative w-full max-w-[568px] aspect-[568/728] mx-auto overflow-hidden rounded-lg shadow-sm">
 						<Image
 							src={contact}
@@ -31,7 +28,6 @@ export function Contact() {
 						/>
 					</div>
 
-					{/* Левый текстовый блок */}
 					<div className="order-2 lg:order-1 flex flex-col pt-0 lg:pt-2">
 						<h2 className="font-libre font-bold text-[32px] sm:text-[40px] md:text-[50px] leading-[105%] text-[var(--brightBrown)]">
 							Veronica Vasylieva

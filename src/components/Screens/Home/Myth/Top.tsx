@@ -1,10 +1,10 @@
 export function Top() {
 	return (
-		<div className="flex flex-col gap-3 md:gap-5">
+		<div className="flex flex-col ">
 			<span className="about-block text-[var(--brightBrown)]">
 				Myth in Client’s life
 			</span>
-			<h2 className="font-libre text-3xl sm:text-4xl md:text-[50px] font-bold leading-[115%]">
+			<h2 className="font-libre  mb-[30px] mt-[50px] sm:my-[50px] text-3xl sm:text-4xl md:text-[50px] font-bold leading-[115%]">
 				Three Journeys Into The Unknown
 			</h2>
 			<p className="subtitle text-base sm:text-lg md:text-xl text-left">
