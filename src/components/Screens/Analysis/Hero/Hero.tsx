@@ -12,14 +12,14 @@ export function Hero() {
 					<span className="about-block text-[var(--brightBrown)]">
 						Archetypal Depth analysis
 					</span>
-					<h1 className="main-title lg:mt-[50px] mb-6 lg:mb-[100px] text-3xl sm:text-4xl lg:text-[50px]">
+					<h1 className="main-title mt-[30px] mb-[50px] lg:mt-[50px] mb-6 lg:mb-[100px] text-3xl sm:text-4xl lg:text-[50px]">
 						The Journey Within
 					</h1>
 				</div>
 			</Wrapper>
 
 			<BoldCenterLine>
-				<Wrapper>
+				<Wrapper >
 					<div className="relative w-full">
 						<div className="relative w-full h-[320px] sm:h-[450px] lg:h-[650px] overflow-hidden">
 							<Image

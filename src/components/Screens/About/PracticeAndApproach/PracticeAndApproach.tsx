@@ -49,7 +49,7 @@ export function PracticeAndApproach() {
 							Studies & Training
 						</h2>
 
-						<ul className="list-disc pl-5 space-y-1 practice-approach-text flex flex-col marker:text-[var(--brightBrown)]">
+						<ul className="list-disc pl-5 space-y-3 practice-approach-text flex flex-col marker:text-[var(--brightBrown)]">
 							<li>
 								MA Psychoanalytic and Jungian Studies, with Distinction, University of Essex, UK
 							</li>

@@ -6,7 +6,7 @@ import { AuthorPortrait } from '@/components/Ui/AuthorPortrait/AuthorPortrait'
 
 export function Author() {
 	return (
-		<div>
+		<div className=' -mt-[100px] sm:-mt-[0]'>
 			<Wrapper>
 				<div className="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-6 md:gap-[100px] items-start">
 					<div className="flex flex-col sm:hidden">

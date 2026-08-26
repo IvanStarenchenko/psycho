@@ -26,7 +26,7 @@ export function Article({
 	const isLongText = paragraphs.length > 1 || firstParagraph.length > previewSymbols
 
 	return (
-		<article className="border-b border-slate-300 py-8 md:py-12 w-full">
+		<article className="border-b border-slate-300 pb-8 mb-8 md:mb-12 w-full">
 			<div className="grid grid-cols-1 md:grid-cols-[1fr_1.1fr] gap-6 md:gap-16 items-start">
 				<div className="flex flex-col gap-y-8 md:gap-y-6">
 					<h2 className="font-libre font-bold text-[30px] md:text-[50px] leading-[100%] capitalize text-[var(--brightBrown)] md:text-[var(--darkNavyBlue)]">

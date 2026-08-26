@@ -35,7 +35,7 @@ export function Card({ bgcolor, img, title, text }: CardProps) {
 					)}
 
 					{title && (
-						<h3 className="font-libre font-medium mb-5 md:mb-[30px] text-xl sm:text-[22px] md:text-[25px] leading-[120%]">
+						<h3 className="font-libre font-medium my-[30px] md:my-[50px] text-[25px] leading-[120%]">
 							{title}
 						</h3>
 					)}

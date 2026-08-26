@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export function Contact() {
 	return (
-		<section className="w-full ">
+		<section className="w-full py-4">
 			<Wrapper>
 				<div className="flex flex-col ">
 					<span className="about-block text-[var(--brightBrown)] uppercase tracking-wider text-xs sm:text-sm font-semibold mb-2">

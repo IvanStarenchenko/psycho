@@ -15,7 +15,7 @@ export function StructureCard({ id, title, text }: StructureCardProps) {
 				{id}. {title}
 			</h3>
 
-			<div className="space-y-3 font-body text-[15px] md:text-[16px] leading-[145%] text-slate-800 text-left">
+			<div className="space-y-3 font-body text-justify hyphens-auto text-[15px] md:text-[16px] leading-[145%] text-slate-800">
 				{paragraphs.map((p, idx) => (
 					<p
 						key={idx}
