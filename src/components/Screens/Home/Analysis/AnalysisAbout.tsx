@@ -4,9 +4,9 @@ import Link from 'next/link'
 import { AnalysisPhoto } from './AnalysisPhoto'
 export function AnalysisAbout() {
 	return (
-		<div className="flex flex-col ">
+		<div className="flex flex-col">
 			<div className="flex flex-col ">
-				<span className="about-block  text-[var(--brightBrown)] md:text-[var(--lightGreenBlue)]">
+				<span className="about-block text-[var(--brightBrown)] mt-[30px] md:mt-[0px] md:text-[var(--lightGreenBlue)]">
 					ARCHETYPAL DEPTH ANALYSIS
 				</span>
 				<h2 className="main-title leading-[115%] text-[var(--darkNavyBlue)] mt-[50px] mb-[30px] sm:mt-[100px] sm:mb-[50px] md:text-white">

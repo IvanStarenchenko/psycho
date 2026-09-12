@@ -9,7 +9,7 @@ export function Hero() {
 		<section className="bg-[var(--lightGreenBlue)] lg:bg-transparent pt-8 lg:pt-0">
 			<Wrapper>
 				<div className="flex flex-col ">
-					<span className="about-block text-[var(--brightBrown)]">
+					<span className="about-block text-[var(--brightBrown)] ">
 						Archetypal Depth analysis
 					</span>
 					<h1 className="main-title mt-[30px] mb-[50px] lg:mt-[50px] mb-6 lg:mb-[100px] text-3xl sm:text-4xl lg:text-[50px]">
