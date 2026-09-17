@@ -5,7 +5,7 @@ import { Hero } from "./Hero/Hero"
 import { Myth } from './Myth/Myth'
 
 export function HomeScreen() {
-	return <div className="flex flex-col gap-y-[50px]">
+	return <div className="flex flex-col gap-y-[50px] ">
 		<Hero />
 		<Author />
 		<Analysis />
