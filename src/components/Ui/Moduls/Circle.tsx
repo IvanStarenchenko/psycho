@@ -59,7 +59,7 @@ export function Circle({ index }: CircleProps) {
 				onClick={handleClick}
 				onMouseEnter={handleMouseEnter}
 				onMouseLeave={handleMouseLeave}
-				className="w-10 h-10 bg-white/30 border-2 border-white rounded-full cursor-pointer transition-all duration-300 hover:bg-white/60 hover:scale-110 active:scale-95"
+				className="w-8 h-8 md:w-9 md:h-9 bg-white/30 border-2 border-white rounded-full cursor-pointer transition-all duration-300 hover:bg-white/60 hover:scale-110 active:scale-95"
 			/>
 
 			{isOpen && mounted && createPortal(

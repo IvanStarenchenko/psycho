@@ -17,7 +17,7 @@ export function Contact() {
 				</div>
 
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
-					<div className="order-1 lg:order-2 relative w-full max-w-[568px] aspect-[568/728] mx-auto overflow-hidden rounded-lg shadow-sm">
+					<div className="order-1 lg:order-2 relative w-full max-w-[568px] aspect-[568/728] mx-auto overflow-hidden  shadow-sm">
 						<Image
 							src={contact}
 							alt="Archetypal Symbol"

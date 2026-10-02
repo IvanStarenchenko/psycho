@@ -14,7 +14,7 @@ export function AuthorAbout() {
 				</h2>
 			</div>
 
-			<span className="font-libre italic font-semibold text-black sm:text-[var(--greenBlueMid)] text-2xl font-500  sm:mt-0">
+			<span className="font-libre font-semibold text-black sm:text-[var(--greenBlueMid)] text-2xl font-500  sm:mt-0">
 				Deeper Way of Listening
 			</span>
 
@@ -38,7 +38,7 @@ export function AuthorAbout() {
 				</p>
 			</div>
 
-			<MainButton className="w-full flex  sm:w-fit self-center rounded-full">
+			<MainButton className="w-full flex sm:w-fit self-center rounded-full">
 				Find out more
 			</MainButton>
 		</div>

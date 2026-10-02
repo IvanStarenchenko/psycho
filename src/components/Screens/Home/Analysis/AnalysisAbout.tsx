@@ -1,4 +1,4 @@
-import { ArrowRight } from '@/components/Ui/Buttons/Arrows/Right'
+import { MainButton } from '@/components/Ui/Buttons/MainButton'
 import { LINKS } from '@/const/path.const'
 import Link from 'next/link'
 import { AnalysisPhoto } from './AnalysisPhoto'
@@ -9,7 +9,7 @@ export function AnalysisAbout() {
 				<span className="about-block text-[var(--brightBrown)] mt-[30px] md:mt-[0px] md:text-[var(--lightGreenBlue)]">
 					ARCHETYPAL DEPTH ANALYSIS
 				</span>
-				<h2 className="main-title leading-[115%] text-[var(--darkNavyBlue)] mt-[50px] mb-[30px] sm:mt-[100px] sm:mb-[50px] md:text-white">
+				<h2 className="main-title leading-[115%] text-[var(--darkNavyBlue)] mt-[50px] mb-[30px] sm:mt-[50px] sm:mb-[50px] md:text-white">
 					The Journey <br className="hidden md:block" /> Within
 				</h2>
 			</div>
@@ -32,14 +32,9 @@ export function AnalysisAbout() {
 
 			<div className="pt-2">
 				<Link href={LINKS[1].path}>
-					<button className="group w-fit font-libre text-lg sm:text-[22px] text-white font-semibold flex items-center gap-x-4 sm:gap-x-12 transition-all duration-300 ease-out hover:gap-x-6 hover:opacity-80 mt-[50px] sm:mt-[100px]">
-						<span className="transition-transform duration-300 group-hover:translate-x-1">
-							Discover The Process
-						</span>
-						<span className="transition-transform duration-300 group-hover:translate-x-1">
-							<ArrowRight />
-						</span>
-					</button>
+					<MainButton className="w-full mt-[50px] flex sm:w-fit self-center rounded-full *:">
+						Discover The Process
+					</MainButton>
 				</Link>
 			</div>
 		</div>

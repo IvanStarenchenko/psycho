@@ -5,7 +5,7 @@ import card_3 from '../../assets/images/cards/card-3.png'
 export const cards_data = [
 	{
 		id: 1,
-		title: 'The King Who Had Everything but Lost His Kingdom',
+		title: 'The King and Lost Kingdom',
 		image: card_1,
 		text: `There was once a man who had built everything he had been told would bring happiness. A successful career. A loving wife. Healthy children. A beautiful home.
 

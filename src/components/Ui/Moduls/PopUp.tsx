@@ -29,7 +29,7 @@ export function PopUp({
 	return (
 		<div className={`w-full h-full sm:h-auto p-5 sm:p-8 transition-all sm:rounded-2xl shadow-2xl sm:max-h-[80vh] overflow-y-auto custom-scrollbar ${currentClass}`}>
 			{onClose && (
-				<div className="flex justify-end mb-4 sm:mb-6">
+				<div className="flex justify-end ">
 					<button
 						onClick={onClose}
 						className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white text-slate-800 flex items-center justify-center text-sm sm:text-base font-bold transition-all cursor-pointer hover:bg-opacity-90 active:scale-95 shadow"
@@ -48,7 +48,7 @@ export function PopUp({
 				{paragraphs.map((paragraph, idx) => (
 					<p
 						key={idx}
-						className="font-['Open_Sans',sans-serif] text-[16px] sm:text-[20px] font-normal leading-[140%] sm:leading-[120%] text-justify tracking-normal"
+						className="font-['Open_Sans',sans-serif] text-[16px] sm:text-[16px] font-normal leading-[140%] sm:leading-[120%] text-justify tracking-normal"
 					>
 						{paragraph}
 					</p>

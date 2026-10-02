@@ -86,7 +86,7 @@ export function CardModal({
 					</div>
 
 					<div className="pt-6 sm:pt-8 pb-2 md:pb-4 pl-0 md:pl-[140px] lg:pl-[160px] flex justify-center md:justify-start">
-						<MainButton size="big" fill="primary">
+						<MainButton fill="primary" className="w-full flex sm:w-fit self-center rounded-full">
 							BEGIN THE CONVERSATION
 						</MainButton>
 					</div>

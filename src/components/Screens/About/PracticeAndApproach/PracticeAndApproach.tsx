@@ -4,7 +4,7 @@ export function PracticeAndApproach() {
 	return (
 		<section className="w-full">
 			<Wrapper>
-				<div className="w-full ml-0 md:ml-[60px] lg:ml-[120px] flex flex-col gap-y-12 md:gap-y-16">
+				<div className="w-full ml-0 md:ml-[60px] lg:ml-[90px] flex flex-col gap-y-12 md:gap-y-16">
 
 					<div className="flex flex-col gap-y-12">
 						<h2 className="practice-approach-title">

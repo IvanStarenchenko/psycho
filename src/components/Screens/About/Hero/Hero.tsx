@@ -21,7 +21,7 @@ export function Hero() {
 			<div className="max-w-[1400px] mx-auto">
 				<div className="relative w-full mb-[120px] lg:mb-0">
 
-					<div className="relative w-full lg:w-[82%] ml-auto aspect-[1182/680] overflow-hidden rounded-none sm:rounded-xl shadow-sm z-0">
+					<div className="relative w-full lg:w-[77%] ml-auto mr-[75px] aspect-[1082/680] overflow-hidden rounded-none  shadow-sm z-0">
 						<Image
 							src={dance}
 							alt="The Path and work"

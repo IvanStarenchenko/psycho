@@ -10,7 +10,7 @@ interface AuthorProps {
 export function AuthorPortrait({ style, className }: AuthorProps) {
 	return (
 		<div
-			className={`relative flex items-center justify-center w-full aspect-square ${style === 'circle' ? 'max-w-[520px]' : 'max-w-[570px] mt-0 sm:mt-[50px]'
+			className={`relative flex items-center justify-center w-full aspect-square ${style === 'circle' ? 'max-w-[520px]' : 'max-w-[570px] mt-0 sm:mt-[80px]'
 				} ${className ?? ''}`}
 		>
 			<span

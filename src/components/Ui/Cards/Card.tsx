@@ -18,7 +18,7 @@ export function Card({ bgcolor, img, title, text }: CardProps) {
 	return (
 		<>
 			<div
-				className="p-4 sm:p-5 md:p-[16px] flex text-center flex-col items-center justify-between flex-1 w-full"
+				className=" h-fit p-4 sm:p-5 md:p-[16px] flex text-center flex-col items-center justify-between flex-1 w-full"
 				style={{ backgroundColor: bgcolor }}
 			>
 				<div className="w-full">
@@ -35,7 +35,7 @@ export function Card({ bgcolor, img, title, text }: CardProps) {
 					)}
 
 					{title && (
-						<h3 className="font-libre font-medium my-[30px] md:my-[50px] text-[25px] leading-[120%]">
+						<h3 className="font-libre font-medium mb-[30px] text-[25px] leading-[120%]">
 							{title}
 						</h3>
 					)}

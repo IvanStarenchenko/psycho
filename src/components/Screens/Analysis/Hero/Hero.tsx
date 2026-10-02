@@ -21,7 +21,7 @@ export function Hero() {
 			<BoldCenterLine>
 				<Wrapper >
 					<div className="relative w-full">
-						<div className="relative w-full h-[320px] sm:h-[450px] lg:h-[650px] overflow-hidden">
+						<div className="relative w-full h-[320px] sm:h-[450px] lg:h-[600px] overflow-hidden">
 							<Image
 								src={heroImg}
 								alt="Hero Image"
