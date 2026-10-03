@@ -36,15 +36,15 @@ export function Hero() {
 					</MainButton>
 				</div>
 
-				<span className="absolute top-[41%] left-[2%] lg:top-[290px] lg:left-[48%] z-20">
+				<span className="absolute top-[46%] left-[2%] lg:top-[290px] lg:left-[48%] z-20">
 					<Circle index={1} />
 				</span>
 
-				<span className="absolute top-[48%] left-[62%] lg:top-[350px] lg:left-auto right-[8%] sm:right-[15%] lg:right-[13%] z-20">
+				<span className="absolute top-[45%] left-[65%] lg:top-[350px] lg:left-auto right-[8%] sm:right-[15%] lg:right-[13%] z-20">
 					<Circle index={0} />
 				</span>
 
-				<span className="absolute top-[60%] left-[20%] lg:top-[520px] sm:left-[12%] lg:left-[9%] z-20">
+				<span className="absolute top-[66%] left-[18%] lg:top-[520px] sm:left-[12%] lg:left-[9%] z-20">
 					<Circle index={2} />
 				</span>
 			</Wrapper>
