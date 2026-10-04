@@ -2,8 +2,7 @@ import { Wrapper } from '@/app/layout/Wrapper/Wrapper'
 import dance from "@/assets/about/dance.png"
 import { AuthorPortrait } from '@/components/Ui/AuthorPortrait/AuthorPortrait'
 import { Circle } from '@/components/Ui/Moduls/Circle'
-import Image from "next/image"
-
+import ExportedImage from 'next-image-export-optimizer'
 export function Hero() {
 	return (
 		<section className="relative w-full overflow-x-hidden">
@@ -22,12 +21,12 @@ export function Hero() {
 				<div className="relative w-full mb-[120px] lg:mb-0">
 
 					<div className="relative w-full lg:w-[77%] ml-auto mr-[75px] aspect-[1082/680] overflow-hidden rounded-none  shadow-sm z-0">
-						<Image
+						<ExportedImage
 							src={dance}
 							alt="The Path and work"
 							fill
 							priority
-							quality={95}
+							//quality={95}
 							className="object-cover object-center"
 						/>
 					</div>

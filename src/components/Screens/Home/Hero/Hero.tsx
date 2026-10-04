@@ -1,21 +1,20 @@
 import { Wrapper } from "@/app/layout/Wrapper/Wrapper"
 import { MainButton } from "@/components/Ui/Buttons/MainButton"
 import { Circle } from '@/components/Ui/Moduls/Circle'
-import Image from "next/image"
+import ExportedImage from 'next-image-export-optimizer'
 import mainImg from "../../../../assets/images/hero-image.png"
 
 export function Hero() {
 	return (
 
 		<section className="relative w-full min-h-[100dvh] pt-8 sm:pt-16 lg:pt-[81px] pb-28 sm:pb-32 lg:pb-[100px] flex flex-col items-start lg:items-center text-left lg:text-center overflow-hidden">
-			<Image
+			<ExportedImage
 				src={mainImg}
 				alt="Archetypal Depth Analysis background"
 				fill
 				priority
-				quality={100}
+				//quality={100}
 				sizes="100vw"
-				unoptimized
 				className="object-cover object-[85%_top] lg:object-center -z-10 scale-100 -translate-y-22 lg:scale-100 lg:translate-y-0"
 			/>
 

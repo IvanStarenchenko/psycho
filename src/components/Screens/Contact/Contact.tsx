@@ -1,6 +1,6 @@
 import { Wrapper } from '@/app/layout/Wrapper/Wrapper'
 import contact from '@/assets/contact/01.png'
-import Image from 'next/image'
+import ExportedImage from 'next-image-export-optimizer'
 
 export function Contact() {
 	return (
@@ -18,12 +18,12 @@ export function Contact() {
 
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
 					<div className="order-1 lg:order-2 relative w-full max-w-[568px] aspect-[568/728] mx-auto overflow-hidden  shadow-sm">
-						<Image
+						<ExportedImage
 							src={contact}
 							alt="Archetypal Symbol"
 							fill
 							priority
-							quality={95}
+							//quality={95}
 							className="object-cover object-center"
 						/>
 					</div>

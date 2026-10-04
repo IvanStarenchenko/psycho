@@ -1,6 +1,7 @@
 'use client'
 
-import Image, { StaticImageData } from 'next/image'
+import ExportedImage from 'next-image-export-optimizer'
+import { StaticImageData } from 'next/image'
 import { useEffect } from 'react'
 import { MainButton } from '../Buttons/MainButton'
 
@@ -46,7 +47,7 @@ export function CardModal({
 
 				{img && (
 					<div className="relative md:absolute md:top-[40px] md:left-[40px] w-full md:w-[260px] h-[220px] sm:h-[280px] md:h-[360px] shrink-0 z-20 shadow-lg overflow-hidden">
-						<Image
+						<ExportedImage
 							src={img}
 							alt={title || 'Modal image'}
 							fill

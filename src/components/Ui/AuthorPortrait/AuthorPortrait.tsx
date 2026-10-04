@@ -1,6 +1,6 @@
 import CirclePortrait from "@/assets/about/portrait-circle.png"
 import SquarePortrait from "@/assets/images/portrait-square.png"
-import Image from "next/image"
+import ExportedImage from 'next-image-export-optimizer'
 
 interface AuthorProps {
 	style: 'square' | 'circle'
@@ -20,15 +20,15 @@ export function AuthorPortrait({ style, className }: AuthorProps) {
 					}`}
 			/>
 
-			<Image
+			<ExportedImage
 				src={style === 'circle' ? CirclePortrait : SquarePortrait}
 				alt="Veronica Vasylieva"
 				className={`object-cover object-center z-0 ${style === 'circle' ? 'rounded-full' : ''
 					}`}
 				fill
 				priority
-				unoptimized
-				quality={100}
+
+				//quality={100}
 				sizes="(max-width: 768px) 100vw, 50vw"
 			/>
 		</div>

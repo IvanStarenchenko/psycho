@@ -1,6 +1,7 @@
 'use client'
 
-import Image, { StaticImageData } from 'next/image'
+import ExportedImage from 'next-image-export-optimizer'
+import { StaticImageData } from 'next/image'
 import { useState } from 'react'
 import { ReadMore } from '../Buttons/ReadMore'
 import { CardModal } from './CardModal'
@@ -24,7 +25,7 @@ export function Card({ bgcolor, img, title, text }: CardProps) {
 				<div className="w-full">
 					{img && (
 						<div className="relative w-full aspect-[4/5] md:h-[480px] mb-5 md:mb-[30px] overflow-hidden">
-							<Image
+							<ExportedImage
 								src={img}
 								alt={title || 'card alt'}
 								fill

@@ -2,7 +2,7 @@ import { structure_data } from '@/app/data/structure_data'
 import { Wrapper } from '@/app/layout/Wrapper/Wrapper'
 import temenosCircleImg from '@/assets/analysis/structure.png'
 import { StructureCard } from '@/components/Ui/StructureCard/StructureCard'
-import Image from 'next/image'
+import ExportedImage from 'next-image-export-optimizer'
 
 export function Structure() {
 	const getItem = (id: number) => structure_data.find((item) => item.id === id)
@@ -29,7 +29,7 @@ export function Structure() {
 
 				<div className="flex flex-col items-center gap-8 lg:hidden">
 					<div className="relative w-[340px] h-[340px] sm:w-[300px] sm:h-[300px] rounded-full overflow-hidden border-2 border-[#c8b5a0] shadow-md shrink-0 mb-2">
-						<Image
+						<ExportedImage
 							src={temenosCircleImg}
 							alt="Temenos Symbolic Vessel"
 							fill
@@ -57,7 +57,7 @@ export function Structure() {
 						{card1 && <StructureCard {...card1} />}
 
 						<div className="relative w-[260px] h-[260px] sm:w-[300px] sm:h-[300px] rounded-full overflow-hidden border-2 border-[#c8b5a0] shadow-md shrink-0 my-2">
-							<Image
+							<ExportedImage
 								src={temenosCircleImg}
 								alt="Temenos Symbolic Vessel"
 								fill

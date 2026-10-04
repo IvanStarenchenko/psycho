@@ -2,8 +2,7 @@ import { Wrapper } from '@/app/layout/Wrapper/Wrapper'
 import beginBg from '@/assets/images/beginBlock.png'
 import { BoldCenterLine } from '@/components/Ui/BoldCenterLine/BoldCenterLine'
 import { MainButton } from '@/components/Ui/Buttons/MainButton'
-import Image from 'next/image'
-
+import ExportedImage from 'next-image-export-optimizer'
 export function Begin() {
 	return (
 		<section className="relative w-full overflow-hidden py-2">
@@ -13,13 +12,13 @@ export function Begin() {
 
 
 						<div className="absolute inset-x-0 top-12 bottom-12 lg:inset-0 z-0">
-							<Image
+							<ExportedImage
 								src={beginBg}
 								alt="Every Journey Begins With A First Step Into The Unknown"
 								fill
 								priority
-								quality={100}
-								unoptimized
+								//quality={100}
+
 								sizes="100vw"
 								className="object-cover object-center brightness-90 lg:brightness-100"
 							/>

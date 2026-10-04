@@ -2,7 +2,7 @@ import { Wrapper } from '@/app/layout/Wrapper/Wrapper'
 import heroImg from '@/assets/analysis/hero.png'
 import { BoldCenterLine } from '@/components/Ui/BoldCenterLine/BoldCenterLine'
 import { Circle } from '@/components/Ui/Moduls/Circle'
-import Image from 'next/image'
+import ExportedImage from 'next-image-export-optimizer'
 
 export function Hero() {
 	return (
@@ -22,13 +22,13 @@ export function Hero() {
 				<Wrapper >
 					<div className="relative w-full">
 						<div className="relative w-full h-[320px] sm:h-[450px] lg:h-[600px] overflow-hidden">
-							<Image
+							<ExportedImage
 								src={heroImg}
 								alt="Hero Image"
 								fill
 								priority
-								quality={100}
-								unoptimized
+								//quality={100}
+
 								sizes="100vw"
 								className="object-cover object-center brightness-90 lg:brightness-100"
 							/>
