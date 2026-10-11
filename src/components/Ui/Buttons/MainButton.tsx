@@ -15,7 +15,7 @@ export function MainButton({
 	children,
 	size = 'medium',
 	fill = 'primary',
-	href = '/contact',
+	href, // Убрали '/contact' по умолчанию! Теперь ссылка будет только при наличии href
 	className = '',
 	...props
 }: ButtonProps) {
@@ -31,17 +31,16 @@ export function MainButton({
 	const fillStyles: Record<NonNullable<ButtonProps['fill']>, string> = {
 		primary:
 			'bg-white border-[var(--brightBrown)] border-2 text-[var(--brightBrown)] hover:bg-[var(--brightBrown)] hover:text-white',
-
 		secondary:
 			'bg-transparent border-[var(--lightBrown)] text-[var(--lightBrown)] hover:bg-[var(--lightBrown)] hover:text-white',
-
 		tertiary:
 			'bg-[var(--brightBrown)] border-[var(--lightBrown)] text-white hover:opacity-90',
 	}
 
 	const combinedClasses = `${baseStyles} ${sizeStyles[size]} ${fillStyles[fill]} ${className}`.trim()
 
-	if (props.onClick || props.type === 'submit' || props.disabled) {
+	// Если есть onClick, сабмит, заблокирована ИЛИ НЕ передан href — это обычная кнопка
+	if (props.onClick || props.type === 'submit' || props.disabled || !href) {
 		return (
 			<button className={combinedClasses} {...props}>
 				{children}

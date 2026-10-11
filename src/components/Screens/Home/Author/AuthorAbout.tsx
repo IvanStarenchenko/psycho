@@ -38,7 +38,7 @@ export function AuthorAbout() {
 				</p>
 			</div>
 
-			<MainButton className="w-full flex sm:w-fit self-center rounded-full">
+			<MainButton href='/about' className="w-full flex sm:w-fit self-center rounded-full">
 				Find out more
 			</MainButton>
 		</div>

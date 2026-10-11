@@ -9,7 +9,7 @@ export function Contact() {
 					<span className="font-libre pl-6 text-[18px] sm:text-[28px] md:text-[25px] text-[var(--darkNavyBlue)] font-[500]">
 						Ready to begin your journey?
 					</span>
-					<MainButton fill="tertiary" className="rounded-[48px] ">
+					<MainButton href="/contact" fill="tertiary" className="rounded-[48px] ">
 						Contact Me
 					</MainButton>
 				</div>

@@ -36,7 +36,7 @@ export function Begin() {
 							</div>
 
 							<div className="flex justify-center lg:justify-end shrink-0 pt-2 lg:pt-0">
-								<MainButton className="w-full flex sm:w-fit self-center rounded-full">
+								<MainButton href="/contact" className="w-full flex sm:w-fit self-center rounded-full">
 									BEGIN THE CONVERSATION
 								</MainButton>
 							</div>

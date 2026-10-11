@@ -30,7 +30,7 @@ export function Hero() {
 				</h3>
 
 				<div className="w-full flex justify-center lg:mt-auto">
-					<MainButton fill="primary" className="w-full flex sm:w-fit self-center rounded-full">
+					<MainButton href="/contact" fill="primary" className="w-full flex sm:w-fit self-center rounded-full">
 						BEGIN THE CONVERSATION
 					</MainButton>
 				</div>

@@ -32,7 +32,7 @@ export function AnalysisAbout() {
 
 			<div className="pt-2">
 				<Link href={LINKS[1].path}>
-					<MainButton className="w-full mt-[50px] flex sm:w-fit self-center rounded-full *:">
+					<MainButton href="/analysis" className="w-full mt-[50px] flex sm:w-fit self-center rounded-full *:">
 						Discover The Process
 					</MainButton>
 				</Link>
