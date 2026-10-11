@@ -1,6 +1,6 @@
-import card_1 from '../../assets/images/cards/card-1.png'
-import card_2 from '../../assets/images/cards/card-2.png'
-import card_3 from '../../assets/images/cards/card-3.png'
+import card_1 from '@/public/assets/images/cards/card-1.png'
+import card_2 from '@/public/assets/images/cards/card-2.png'
+import card_3 from '@/public/assets/images/cards/card-3.png'
 
 export const cards_data = [
 	{

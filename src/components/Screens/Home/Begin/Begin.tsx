@@ -1,7 +1,7 @@
 import { Wrapper } from '@/app/layout/Wrapper/Wrapper'
-import beginBg from '@/assets/images/beginBlock.png'
 import { BoldCenterLine } from '@/components/Ui/BoldCenterLine/BoldCenterLine'
 import { MainButton } from '@/components/Ui/Buttons/MainButton'
+import beginBg from '@/public/assets/images/beginBlock.png'
 import ExportedImage from 'next-image-export-optimizer'
 export function Begin() {
 	return (

@@ -1,7 +1,7 @@
 import { structure_data } from '@/app/data/structure_data'
 import { Wrapper } from '@/app/layout/Wrapper/Wrapper'
-import temenosCircleImg from '@/assets/analysis/structure.png'
 import { StructureCard } from '@/components/Ui/StructureCard/StructureCard'
+import temenosCircleImg from '@/public/assets/analysis/structure.png'
 import ExportedImage from 'next-image-export-optimizer'
 
 export function Structure() {

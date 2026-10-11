@@ -1,8 +1,8 @@
 import { Wrapper } from "@/app/layout/Wrapper/Wrapper"
 import { MainButton } from "@/components/Ui/Buttons/MainButton"
 import { Circle } from '@/components/Ui/Moduls/Circle'
+import mainImg from "@/public/assets/images/hero-image.png"
 import ExportedImage from 'next-image-export-optimizer'
-import mainImg from "../../../../assets/images/hero-image.png"
 
 export function Hero() {
 	return (

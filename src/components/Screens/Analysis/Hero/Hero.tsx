@@ -1,7 +1,7 @@
 import { Wrapper } from '@/app/layout/Wrapper/Wrapper'
-import heroImg from '@/assets/analysis/hero.png'
 import { BoldCenterLine } from '@/components/Ui/BoldCenterLine/BoldCenterLine'
 import { Circle } from '@/components/Ui/Moduls/Circle'
+import heroImg from '@/public/assets/analysis/hero.png'
 import ExportedImage from 'next-image-export-optimizer'
 
 export function Hero() {

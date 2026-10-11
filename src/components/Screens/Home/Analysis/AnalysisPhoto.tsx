@@ -1,6 +1,6 @@
 import { Circle } from '@/components/Ui/Moduls/Circle'
+import analysisPhoto from '@/public/assets/images/analysisPhoto.png'
 import ExportedImage from 'next-image-export-optimizer'
-import analysisPhoto from '../../../../assets/images/analysisPhoto.png'
 
 interface AnalysisPhotoProps {
 	className?: string

@@ -1,5 +1,5 @@
-import CirclePortrait from "@/assets/about/portrait-circle.png"
-import SquarePortrait from "@/assets/images/portrait-square.png"
+import CirclePortrait from "@/public/assets/about/portrait-circle.png"
+import SquarePortrait from "@/public/assets/images/portrait-square.png"
 import ExportedImage from 'next-image-export-optimizer'
 
 interface AuthorProps {

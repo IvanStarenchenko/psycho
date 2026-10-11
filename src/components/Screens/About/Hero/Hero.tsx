@@ -1,7 +1,7 @@
 import { Wrapper } from '@/app/layout/Wrapper/Wrapper'
-import dance from "@/assets/about/dance.png"
 import { AuthorPortrait } from '@/components/Ui/AuthorPortrait/AuthorPortrait'
 import { Circle } from '@/components/Ui/Moduls/Circle'
+import Path from '@/public/assets/about/dance.png'
 import ExportedImage from 'next-image-export-optimizer'
 export function Hero() {
 	return (
@@ -22,7 +22,7 @@ export function Hero() {
 
 					<div className="relative w-full lg:w-[77%] ml-auto mr-[75px] aspect-[1082/680] overflow-hidden rounded-none  shadow-sm z-0">
 						<ExportedImage
-							src={dance}
+							src={Path}
 							alt="The Path and work"
 							fill
 							priority

@@ -1,5 +1,5 @@
 import { Wrapper } from '@/app/layout/Wrapper/Wrapper'
-import contact from '@/assets/contact/01.png'
+import contact from '@/public/assets/contact/01.png'
 import ExportedImage from 'next-image-export-optimizer'
 
 export function Contact() {
